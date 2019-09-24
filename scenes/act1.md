@@ -3,7 +3,7 @@
 ```
 SceneSetup.act1();
 ```
-
+ 
 (...300)
 
 n: A TO JEST CZŁOWIEKA LĘK
@@ -125,6 +125,7 @@ b: Ale ponowne odtwarzanie gry prowadzi do takiej samej historii, wszak tutejsze
 `bb({eyes:"narrow_eyebrow"});`
 
 b: Co daje sprzeczność pomiędzy przesłaniem a mechanizmem gry,
+
 `bb({eyes:"fear"});`
 
 b: Odkrywając w ten sposób strukturę tego narracyjnego wszechświata,
@@ -1248,7 +1249,7 @@ bb({eyes:"pretty"});
 Game.FORCE_TEXT_DURATION = 2300;
 ```
 
-b: ♫ Złapać ^wack^a lub ^cyc^ek-
+b: ♫ Brać za ^wack^a lub ^cyc^ek-
 
 (...500)
 
