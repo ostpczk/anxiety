@@ -24,7 +24,7 @@ n: _TY_ JESTEŚ LĘKIEM
 
 `hong({mouth:"0_neutral", eyes:"0_neutral"})`
 
-h: Hej! Znowu ty i ja?
+h: Hej... Znowu ty i ja?
 
 `hong({eyes:"0_neutral"})`
 
@@ -96,11 +96,11 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich"});
 ```
 
-h: Sure, the story as a *whole* is the same, but each chapter has two possible endings, plus all the branching dialogue opti--
+h: Jasne, przygoda jako *całość* jest taka sama, lecz każdy akt ma dwa możliwe zakończenia, plus liczne rozgałęzione opcje dialo--
 
 `bb({body:"fear"});`
 
-b: The player will be disappointed, close this browser tab, delete our software, and then we'll--
+b: Gracz będzie rozczarowany, zamknie przeglądarkę, usunie oprogramowanie, wtedy my --
 
 (#act1_replay_end)
 
@@ -112,27 +112,26 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich"});
 ```
 
-h: A lewd-what now?
+h: Dyso- co?
 
 `bb({eyes:"normal"});`
 
-b: The story arc was about how you can *CHOOSE* to build a healthy collaboration with your fear,
+b: Cała ta fabuła jest o *WYBORACH* budujących zdrową relację z lękiem,
 
 `bb({eyes:"normal_right"});`
 
-b: But replaying the game will give the same story, implying your *CHOICES* don't matter,
+b: Ale ponowne odtwarzanie gry prowadzi do takiej samej historii, wszak tutejsze *WYBORY* nie mają znaczenia,
 
 `bb({eyes:"narrow_eyebrow"});`
 
-b: Thus showing a contradiction between the game's message and mechanics,
-
+b: Co daje sprzeczność pomiędzy przesłaniem a mechanizmem gry,
 `bb({eyes:"fear"});`
 
-b: Thus unraveling the fabric of this narrative universe,
+b: Odkrywając w ten sposób strukturę tego narracyjnego wszechświata,
 
 `bb({body:"fear"});`
 
-b: And then we'll--
+b: Skutkiem czego--
 
 (#act1_replay_end)
 
@@ -141,7 +140,7 @@ b: And then we'll--
 
 `bb({body:"panic"})`
 
-b: DIEEEEEEEEEEEEEEEEEEE
+b: ZGINIEEEEEEEEEEEEEEMY
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -170,7 +169,7 @@ h: Okay let's get back into character.
 Game.clearText();
 ```
 
-n4: (LET _YOUR_ ANXIETY BLAH BLAH BLAH MOST SIMILAR TO WHAT _YOUR_ FEAR BLAH BLAH YOU KNOW THE DRILL)
+n4: (POZWÓL _SWOIM_ LĘKOM BLA BLA BLA CO _CIEBIE_ NIEPOKOIŁOBY BLA BLA WIESZ CO ROBIĆ)
 
 ```
 sfx("squeak");
@@ -227,7 +226,7 @@ bb({body:"normal", mouth:"small", eyes:"narrow"});
 hong({body:"0_sammich"});
 ```
 
-b: Don't you know loneliness is associated with premature death as much as smoking 15 cigarettes a day?-
+b: Czy nie jesteś świadom, że samotność jest powiązana z przedwczesną śmiercią równoważną do, palenia 15 papierosów dziennie?-
 
 `Game.OVERRIDE_TEXT_SPEED = 2;`
 
@@ -237,17 +236,17 @@ b: (Holt-Lunstad 2010, PLoS Medicine)
 
 `hong({eyes:"0_annoyed"})`
 
-h: Um, thanks for citing your sources but--
+h: Em, dzięki za podanie źródła ale--
 
 `Game.OVERRIDE_TEXT_SPEED = 2;`
 
 `bb({body:"fear", mouth:"normal", eyes:"fear"})`
 
-b: Which means if we don't hang out with someone *right now* we're gonna-
+b: Co oznacza, że jeśli nie będziemy spędzać czasu z kimś *teraz*, to-
 
 `bb({body:"panic"})`
 
-b: DIEEEEEEEEEEEEEEEEEEE
+b: ZGINIEEEEEEEEEEEEEEMY
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -260,7 +259,7 @@ publish("hp_show");
 
 `_.fifteencigs = true`
 
-n: YOU USED *FEAR OF BEING UNLOVED*
+n: UŻYTO *LĘKU PRZED SAMOTNOŚCIĄ*
 
 (#act1b)
 
@@ -271,27 +270,27 @@ bb({body:"normal", mouth:"small", eyes:"normal"});
 hong({body:"0_sammich"});
 ```
 
-b: Whip out your laptop and do some work right now!
+b: Wyjmij laptopa i zacznij pracować teraz!
 
 `hong({eyes:"0_annoyed"})`
 
-h: Um, I'd rather not get crumbs in my keyboa--
+h: Em, wolę nie mieć klawiatury pełnej okru--
 
 ```
 bb({mouth:"normal", eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: If we're not contributing to the body of society then we're a society-parasite!
+b: Jeżeli nie będziemy mieć swojego wkładu w ciele społeczeństwa, to jesteśmy pasożytem społecznym!
 
-b: The society-body will go to the society-doctor for medication to kill their society-parasites then we'll--
+b: Ciało społeczeństwa pójdzie do doktora społeczeństwa który przypisze mu lek przeciw społecznym pasożytom i wtedy-- 
 
 ```
 bb({body:"panic", mouth:"normal", eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: DIEEEEEEEEEEEEEEEEEEE
+b: ZGINIEEEEEEEEEEEEEEMY
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -304,7 +303,7 @@ publish("hp_show");
 
 `_.parasite = true`
 
-n: YOU USED *FEAR OF BEING A BAD PERSON*
+n: UŻYTO *LĘKU PRZED BYCIEM ZŁĄ OSOBĄ*
 
 (#act1b)
 
@@ -315,18 +314,18 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich", eyes:"0_annoyed"});
 ```
 
-h: Have those studies been replicat--
+h: Czy te badania zostały powtórzone na--
 
 ```
 bb({body:"fear", mouth:"normal", eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Processed wheat will spike our blood sugar so they'll have to amputate all our limbs and then we'll-
+b: Przetworzona pszenica podniesie poziom cukru w naszej krwi, więc będą musieli amputować wszystkie nasze kończyny, a potem-
 
 `bb({body:"panic"})`
 
-b: DIEEEEEEEEEEEEEEEEEEE
+b: ZGINIEEEEEEEEEEEEEEMY
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -339,37 +338,37 @@ publish("hp_show");
 
 `_.whitebread = true`
 
-n: YOU USED *FEAR OF BEING HARMED*
+n: UŻYTO *LEKU PRZED ZROBIENIEM KRZYWDY*
 
 (#act1b)
 
 # act1b
 
-n: IT'S SUPER EFFECTIVE
+n: TO BYŁO SUPER EFEKTYWNE
 
 `bb({mouth:"smile", eyes:"smile"});`
 
-b: See, human? I am your loyal guard-wolf!
+b: Widzisz, człowiek? Jestem twoim lojalnym wilkiem stróżem!
 
 `bb({body:"pride_talk"});`
 
-b: Trust your gut! Your feelings are always valid!
+b: Ufaj swym instynktom! Twoje uczucia zawsze są prawidłowe!
 
 `bb({body:"pride"});`
 
-n: GET YOUR HUMAN'S ENERGY BAR TO ZERO
+n: OBNIŻ PASEK MOCY TWOJEGO CZŁOWIEKA DO ZERA
 
-n: TO PROTECT THEIR PHYSICAL + SOCIAL + MORAL NEEDS, YOU CAN USE:
+n: ABY BRONIĆ POTRZEBY FIZYCZNE + SOCJALNE + MORALNE, MOŻESZ UŻYĆ:
 
-n: FEAR OF *BEING HARMED* #harm#
+n: LĘKU PRZED *ZROBIENIEM SOBIE KRZYWDY* #harm#
 
-n: FEAR OF *BEING UNLOVED* #alone#
+n: LĘKU PRZED *SAMOTNOŚCIĄ* #alone#
 
-n: AND FEAR OF *BEING A BAD PERSON* #bad#
+n: I LĘKU PRZED *BYCIEM ZŁĄ OSOBĄ* #bad#
 
 `Game.OVERRIDE_TEXT_SPEED = 1.25;`
 
-n4: (PRO-TIP: PLAY THE CHOICES THAT PERSONALLY HIT YOUR DEEPEST, DARKEST FEARS!~)
+n4: (MAŁA RADA: WYBIERAJ OPCJE KTÓRE SĄ TWOIMI NAJWIĘKSZYMI OBAWAMI!~)
 
 h: ...
 
@@ -383,18 +382,18 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
-h: you know what maybe it's time to check my phone.
+h: wiesz co, czas sprawdzić mój telefon.
 
 ```
 sfx("rustle2");
 hong({body:"phone1", mouth:"neutral", eyes:"neutral"})
 ```
 
-n: PROTECT YOUR HUMAN
+n: BROŃ SWOJEGO CZŁOWIEKA
 
-n: FROM THE WORLD. FROM OTHER PEOPLE. FROM THEMSELF.
+n: PRZED ŚWIATEM. PRZED INNYMI LUDŹMI. PRZED SAMYM SOBĄ.
 
-n: GOOD LUCK
+n: POWODZENIA
 
 (...500)
 
@@ -408,7 +407,7 @@ n: GOOD LUCK
 
 `music('battle', {volume:0.5})`
 
-n: ROUND ONE: *FIGHT!*
+n: RUNDA 1: *WALCZ!*
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"});`
 
@@ -430,11 +429,11 @@ h: Also, I got an invite?
 
 b: Well then!
 
-[Say yes, or we'll die from loneliness!](#act1c_loner)
+[Przyjmij, inaczej zginiemy z samotności!](#act1c_loner)
 
-[Say no, it's full of poisonous drugs!](#act1c_drugs)
+[Odrzuć, jeszcze się czegoż naćpasz!](#act1c_drugs)
 
-[Ignore it, we just make parties sad.](#act1c_sad)
+[Zignoruj, we just make parties sad.](#act1c_sad)
 
 # act1c_loner
 
@@ -949,7 +948,7 @@ attack("18p", "harm");
 (...2500)
 
 {{if _.fifteencigs}}
-b: FIFTEEN. CIGARETTES.
+b: PIĘTNAŚCIE. PAPIEROSÓW.
 {{/if}}
 
 ```
@@ -991,7 +990,7 @@ hong({mouth:"anger", eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Why are you like this?!
+h: Czemu muszisz taki być?!
 
 (#act1f)
 
@@ -1002,14 +1001,14 @@ bb({eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: We're spreading disinformation! We're destroying trust in a free press!
+b: Rozpowszechniamy dezinformację! Niszczymy zaufanie wolnej prasy!
 
 ```
 bb({body:"scream"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: We're the reason fascism will arise from the rubble of democracy!
+b: To przez takich jak my faszyzm wyłoni się z gruzów demokracji!
 
 ```
 bb({body:"normal", eyes:"anger"});
@@ -1025,7 +1024,7 @@ Game.OVERRIDE_TEXT_SPEED = 1.5;
 _.factcheck = true;
 ```
 
-h: Why are you like this?!
+h: Czemu muszisz taki być?!
 
 (#act1f)
 
@@ -1036,13 +1035,13 @@ bb({eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Do you want to have a pretzel for a spine?! Stop hunching over your screen!
+b: Chcesz mieć precel z kręgosłupa?! Przestań garbić się przed tym ekranem!
 
 ```
 bb({body:"meta"});
 ```
 
-b: That means you too.
+b: Hej, ty również.
 
 ```
 bb({body:"normal", mouth:"normal"});
@@ -1058,7 +1057,7 @@ hong({mouth:"anger", eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Why are you like this?!
+h: Czemu muszisz taki być?!
 
 (#act1f)
 
@@ -1072,21 +1071,21 @@ h: Maybe I shouldn't have ignored the invite?
 
 `bb({mouth:"normal", eyes:"normal"});`
 
-[Keep ignoring, we're still party poopers.](#act1e_ignore_continue)
+[Ignoruj ich dalej, i tak psujemy zabawę.](#act1e_ignore_continue)
 
-[Actually, say yes.](#act1e_ignore_changetoyes)
+[W zasadzie, przyjmij.](#act1e_ignore_changetoyes)
 
-[Actually, say no.](#act1e_ignore_changetono)
+[W zasadzie, nie przyjmuj.](#act1e_ignore_changetono)
 
 # act1e_ignore_continue
 
 `hong({eyes:"annoyed"});`
 
-h: It's kinda rude to keep ignoring them though, no?
+h: Ale chyba jest to nieuprzejmie aby wszystkich ciągle ignorować, co nie?
 
 `bb({eyes:"normal_right"});`
 
-b: Well other people always ignore *us*, so
+b: Znaczy się, inni ciągle ignorują *nas*, więc
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -1097,7 +1096,7 @@ attack("18p", "alone");
 
 `bb({eyes:"normal"});`
 
-b: so let's just call it even.
+b: więc jesteśmy kwita.
 
 (#act1f)
 
@@ -1105,9 +1104,9 @@ b: so let's just call it even.
 
 `hong({eyes:"surprise", mouth:"smile"});`
 
-h: You're... letting me have fun?
+h: Czyli... pozwalasz mi na zabawę?
 
-b: Well, I mean, loneliness *can* kill us.
+b: Znaczy się, samotność *może* nas zabić.
 
 `hong({eyes:"neutral", mouth:"neutral"});`
 
@@ -1117,7 +1116,7 @@ b: Well, I mean, loneliness *can* kill us.
 
 `bb({eyes:"narrow"});`
 
-b: It's too crowded. Crowds are dangerous.
+b: Jest zbyt tłoczno. Tłumy są niebezpieczne.
 
 (#act1e_yes_changetono)
 
@@ -1129,44 +1128,44 @@ hong({mouth:"neutral", eyes:"neutral"});
 bb({body:"normal", mouth:"normal", eyes:"normal"});
 ```
 
-h: Whatever. New Tinder notification.
+h: Mniejsza z tym. Mam notyfikację na Tinderze.
 
 `bb({eyes:"uncertain"})`
 
-b: What, that hookup app?
+b: Hę, ta apka do podrywów?
 
 `hong({eyes:"annoyed"})`
 
-h: It's not a hookup app, it's just a way to meet new peopl--
+h: Nie do podrywów, po prostu sposób aby poznawać nowych lu--
 
 `bb({eyes:"narrow"})`
 
-b: It's a hookup app.
+b: Aplikacja do podrywów.
 
 ```
 hong({eyes:"surprise", mouth:"smile"});
 bb({eyes:"normal"});
 ```
 
-h: Oh, I got a match! They look cute!
+h: Oho, dopasowanie! Ale słodko wygląda!
 
 ```
 bb({eyes:"narrow_eyebrow"});
 hong({eyes:"sad", mouth:"anger"})
 ```
 
-h: Please don't ruin this for m--
+h: Błagam tylko mi tego nie popsu--
 
 ```
 bb({body:"panic"});
 Game.OVERRIDE_TEXT_SPEED = 2.0;
 ```
 
-b: DANGER DANGER DANGER DANGER DANGER DANGER
+b: UWAGA UWAGA UWAGA UWAGA
 
 `bb({body:"fear", eyes:"fear", mouth:"normal"})`
 
-[Jesteśmy *wykorzystywani* przez innych.](#act1f_used_by_others)
+[Inni nas *wykorzystują*.](#act1f_used_by_others)
 
 [*Wykorzystujemy* innych.](#act1f_using_others)
 
@@ -1176,13 +1175,13 @@ b: DANGER DANGER DANGER DANGER DANGER DANGER
 
 `bb({body:"point_crotch", eyes:"normal", mouth:"normal"})`
 
-b: Random hookups may be able to fill the hole down there,
+b: Losowe podrywy być może spełnią potrzebę jaką masz tam na dole,
 
-b: but they can never fill the hole...
+b: Ale nigdy nie wypełnią pustkę...
 
 `bb({body:"point_heart", eyes:"pretty", mouth:"small"})`
 
-b: in *here*.
+b: *tu*.
 
 (...1000)
 
@@ -1191,7 +1190,7 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: The point is WE'RE GOING TO DIE ALONE
+b: Chodzi o to, że UMRZEMY SAMOTNIE
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -1249,7 +1248,7 @@ bb({eyes:"pretty"});
 Game.FORCE_TEXT_DURATION = 2300;
 ```
 
-b: ♫ Brać za ^chuj^a lub ^cyce^-
+b: ♫ Złapać ^wack^a lub ^cyc^ek-
 
 (...500)
 
@@ -1295,19 +1294,20 @@ attack("18p", "bad");
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
 {{if _.whitebread}}
-b: They'll trap you in a well and force-feed you white bread to fatten you up so they can wear your skin like a suit!
+b: Wepchnie cię do studni i utuczy pszenicą aby następnie cię obedrzeć i nosić twoją skórę jak garnitur!
 {{/if}}
 
 {{if _.parasite}}
-b: They'll bludgeon you with a pomodoro timer and say "YOU SHOULDA BEEN MORE PRODUCTIVE YOU PARASITE"
+b: Będzie tłuc cię na miazgę minutnikiem kuchennym, ostatnie co usłyszysz to "TRZEBA BYŁO PRACOWAĆ PASOŻYCIE"
 {{/if}}
 
 {{if !_.whitebread && !_.parasite}}
-b: They'll tear your flesh to gory confetti, turn your entrails into streamers, and mix your blood into a punch bowl! 
+b: Rozszarpie twe ciało niczym krwawe konfetti, przerobi twe bebechy w serpentyny, naleje krew do wazy na poncz! 
+
 {{/if}}
 
 {{if !_.whitebread && !_.parasite}}
-b: How's THAT for a party invite?!
+b: Co powiesz o TAKIM zaproszeniu?!
 {{/if}}
 
 ```
@@ -1580,7 +1580,7 @@ n: ALEŻ, PATRZ JAK BARDZO JEST WDZIĘCZNY!
 
 (...500)
 
-n: TERAZ ŻE PASEK ENERGII OSIĄGNĄŁ ZERO, SPRAWUJESZ BEZPOŚREDNIĄ KONTROLĘ NAD DZIAŁANIAMI CZŁOWIEKA
+n: TERAZ ŻE PASEK MOCY OSIĄGNĄŁ ZERO, SPRAWUJESZ BEZPOŚREDNIĄ KONTROLĘ NAD DZIAŁANIAMI CZŁOWIEKA
 
 `bb({mouth:"smile", eyes:"normal"});`
 
