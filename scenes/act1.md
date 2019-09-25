@@ -510,7 +510,7 @@ b: Przedawkujemy się metamfetaminą i chlebem pszennym na tyle, że nie będą 
 {{/if}}
 
 {{if !_.whitebread}}
-b: Przedawkujemy się tymi narkotykami że aż grabaż będzie się dziwić jakim cudem nasze ciało *już* zostało zabalsamovane!
+b: Przedawkujemy się tymi narkotykami że aż grabaż będzie się dziwić jakim cudem nasze ciało *już* zostało zabalsamowane!
 {{/if}}
 
 ```
@@ -635,7 +635,7 @@ b: ...
 
 `bb({mouth:"smile", eyes:"smile"});`
 
-b: Prześlijmy dalej tę historię!
+b: Prześlijmy dalej tą historię!
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -670,13 +670,13 @@ b: Obgadują nas! Podstępnie nas obgadują!
 
 `hong({eyes:"annoyed"});`
 
-h: Raczej chyba tego nie robią?
+h: Chyba raczej nie?
 
 `bb({eyes:"narrow", mouth:"small"});`
 
-b: ale co jeśli oni wszyscy gadają za naszymi plecami
+b: co jeśli wszyscy gadają za naszymi plecami
 
-h: Nie robią te--
+h: Co ty, nie zro--
 
 `bb({body:"fear", eyes:"fear", mouth:"normal"});`
 
@@ -1403,7 +1403,7 @@ b: A już mówiąc o imprezach, w sprawie zaproszenia na ten weekend, oto moja O
 
 [Powinniśmy iść.](#act1g_go) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[Powinniśmy je odrzucić.](#act1g_dont) `Game.OVERRIDE_CHOICE_LINE=true`
+[Powinniśmy nie iść.](#act1g_dont) `Game.OVERRIDE_CHOICE_LINE=true`
 
 # act1g_go
 
@@ -1620,7 +1620,7 @@ hong({body:"3_defeated3"});
 _.act1_ending = "fight";
 ```
 
-b: ZNISZCZYĆ ZNISZCZYĆ ZNISZCZYĆ ZNISZCZYĆ ZNISZCZYĆ ZNISZCZYĆ ZNISZCZYĆ ZNISZCZYĆ ZNISZCZYĆ ZNISZCZYĆ ZNISZCZYĆ ZNISZCZYĆ ZNISZCZYĆ ZNISZCZYĆ ZNISZCZYĆ ZNI--
+b: ZNISZCZYĆ ZNISZCZYĆ ZNISZCZYĆ ZNISZCZYĆ ZNISZCZYĆ ZNISZCZYĆ ZNISZCZYĆ ZNISZCZYĆ ZNISZCZYĆ ZNISZCZYĆ ZNISZCZYĆ ZNISZCZYĆ ZNISZCZYĆ ZNI--
 
 (#act1j)
 
