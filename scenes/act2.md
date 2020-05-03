@@ -23,7 +23,7 @@
 publish("act2",["dee",3]);
 ```
 
-s: A *widzieliście* tę "wiadomość" o tej paskudnej rzeczy co się gdzieś tam wydarzyła?
+s: A *widzieliście* tę "wiadomość" że gdzieś tam, coś tam złego się wydarzyło?
 
 ```
 publish("act2",["dee",2]);
@@ -38,7 +38,7 @@ publish("act2",["party_hong","next"]);
 publish("act2",["dum",3]);
 ```
 
-a: Jak ja nie znoszę wiadomości. Czysta sensacja i clickbait.
+a: Jak ja nie znoszę takich newsów. Czysta sensacja i clickbait.
 
 ```
 publish("act2",["dum",2]);
@@ -53,13 +53,13 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",1]);
 ```
 
-s: Niby prawda, ale ich autorzy tylko podążają za zachętami. *Prawdziwym* problemem są ludzie, którzy klikają w ten chłam.
+s: Niby prawda, ale ludzie to piszą, bo jest na to popyt. *Prawdziwym* problemem są ludzie, którzy klikają w ten chłam.
 
 ```
 publish("act2",["dee",3]);
 ```
 
-s: Kto w ogóle udostępnia smutne wiadomości, i zasmuca wszystkich swoich przyjaciół?
+s: Co za chory ^pojeb^ udostępnia takie smutne wiadomości, i zasmuca wszystkich swoich przyjaciół?
 
 ```
 publish("act2",["party_hunter",1]);
@@ -67,7 +67,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Masz rację, wariactwo!
+a: No! Masakra.
 
 (#act2-preamble-end)
 
@@ -78,7 +78,7 @@ a: Masz rację, wariactwo!
 publish("act2",["dee",3]);
 ```
 
-s: A *widzieliście* ten "artykuł" co jest wszędzie na mediach społecznościowych?
+s: A *widzieliście* ten "artykuł", co wszędzie wisi na mediach społecznościowych?
 
 ```
 publish("act2",["dee",2]);
@@ -93,7 +93,7 @@ publish("act2",["party_hong","next"]);
 publish("act2",["dum",3]);
 ```
 
-a: Jasne! Fejk nius widoczny na kilometr. Jak można się na to nabrać i do tego udostępniać?
+a: Jasne! Fejk nius widoczny na kilometr. Jak można w to wierzyć, i do tego taki chłam udostępniać?
 
 ```
 publish("act2",["dum",2]);
@@ -157,7 +157,7 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",1]);
 ```
 
-s: No spójrz, wczoraj ktoś zretweetował GIF kota pijącego mleko.
+s: No zobacz, wczoraj ktoś zretweetował GIF kota pijącego mleko.
 
 ```
 publish("act2",["dee",3]);
@@ -271,7 +271,7 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",3]);
 ```
 
-s: No dokładnie! Jak tak patrzę to żaden seksiak, ale i tak byłoby branie!
+s: No dokładnie! Jak tak patrzę to niby żaden seksiak, ale i tak byłoby branie!
 
 ```
 publish("act2",["party_hunter",1]);
@@ -508,7 +508,7 @@ b: I wiesz co, nawet jeśli uda ci się znaleźć szlachetny cel w życiu, *nada
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"})`
 
-b: Alfred Nobel pragnął pokoju na świecie oraz międzykulturowego zrozumienia. Z tego powodu chciał uczynić podróż łatwiejszą.
+b: Alfred Nobel marzył o pokoju na świecie oraz wzajemnym porozumieniu między kulturami. Z tego powodu chciał uczynić podróż łatwiejszą.
 
 `bb({eyes:"normal_r"})`
 
@@ -716,9 +716,9 @@ sfx("gravel");
 
 (...501)
 
-b: WIELKI, OBLEŚNY, PASKUDNY ZBOCZENIEC zostanie skazany na 72-godzinny pobyt w jednej z tych średniowiecznych maszyn do publicznego upokarzania
+b: WIELKI, OBLEŚNY, PASKUDNY ZBOCZENIEC zostanie skazany na 72-godzinny pobyt w jednej z tych średniowiecznych maszyn do publicznego upokarzania,
 
-b: no chyba że prywatnie *kręci* go takie coś
+b: pod warunkiem, że takie coś go nie *kręci*,
 
 `bb({body:"scream_a_1"})`
 
@@ -786,7 +786,7 @@ b: I mówią, *jak dobrze, że ci 'dobrzy ludzie' się obijają, skupieni na tak
 
 `bb({body:"point", mouth:"smile", eyes:"happy_r"})`
 
-b: *Teraz wszystko pójdzie po naszej myśli; jak dodamy gazu to zdążymy na czas!*
+b: *Teraz wszystko pójdzie po naszej myśli; jak dodamy gazu, to nie zabraknie nam czasu!*
 
 `_.a2_attack_3 = "bad";`
 
@@ -900,7 +900,7 @@ attack("20p", _.a2_attack_3);
 
 h: K^UUUCHWA^!
 
-h: JA P^IERDOL^Ę C^HUJ^ W D^UPĘ^ *K^UUUURWA^ MAĆ*
+h: JA P^IERDOL^Ę C^HUJ^ W D^UPĘ^ *K^UURRRWA^ MAĆ*
 
 `bb({body:"two_up", mouth:"smile", eyes:"happy"});`
 
@@ -1155,7 +1155,7 @@ h: Nieważne co robię, nie mogę się ciebie pozby--
 
 `bb({body:"cry_1"});`
 
-b: No bo może ty NIE MASZ SIĘ MNIE *POZBYWAĆ*.
+b: No bo może ty NIE MASZ SIĘ MNIE *POZBYĆ*.
 
 `bb({body:"cry_2"});`
 
@@ -1509,15 +1509,15 @@ h: CO TO DO DIASKA BYŁO
 b: Wybacz mi. Musiałem ci pokazać konsekwencje.
 
 {{if _.SPECIAL_ATTACK=="harm"}}
-h: I COULD *SEE* MY OWN CORPSE. I COULD *FEEL* THE SENSATION OF BEING ACTUALLY DEAD.
+h: MÓJ WŁASNY *TRUP* STANĄŁ MI PRZED *OCZAMI*. OBLAZŁO MNIE DOZNANIE BYCIA *MARTWYM*.
 {{/if}}
 
 {{if _.SPECIAL_ATTACK=="alone"}}
-h: I COULD *SEE* EVERYONE'S LOOK OF DISGUST. I COULD *HEAR* ALL THE THINGS THEY SAID.
+h: *WSZYSCY* PATRZYLI SIĘ NA MNIE Z *OBRZYDZENIEM*. BYŁO *SŁYCHAĆ WSZYSTKO*, CO MÓWILI.
 {{/if}}
 
 {{if _.SPECIAL_ATTACK=="bad"}}
-h: I COULD *HEAR* THE CRUNCHING OF RIBS. I COULD *TASTE* THE BLOOD IN THE AIR.
+h: W MOICH *USZACH* ROZLEGŁ SIĘ *TRZASK* PĘKAJĄCYCH *ŻEBER*. W MOICH *USTACH SMAK KRWI* W POWIETRZU.
 {{/if}}
 
 b: Wybacz, człowieku.
@@ -1532,17 +1532,17 @@ n: *WYKOŃCZ GO*
 
 `bb({ eyes:"angry" });`
 
-b: That psychopath was taking advantage of you.
+b: Ten psychopata cię wykorzystywał.
 
-b: They were trying to corrupt you, make you as messed up as they are!
+b: Próbował cię zdemoralizować, spaczyć do takiego samego stopnia!
 
 `bb({ body:"yell_angry_1" });`
 
-b: Punch that jerk! Knock their friggin' lights out!
+b: Zdziel psychola w pysk! Wal bez litości!
 
 `bb({ body:"final_1" });`
 
-b: PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THE--
+b: UDERZ UDERZ UDERZ UDERZ UDERZ UDERZ UDERZ UDERZ UDERZ UDERZ UDERZ UDERZ UDERZ UDE--
 
 `_.a2_ending = "fight";`
 
@@ -1550,15 +1550,15 @@ b: PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THEM 
 
 # act2j_flight
 
-b: I *knew* all these partygoers were deeply messed up. They all dull their pain with horrible things!
+b: *Wiedziałem*, że wszyscy ci imprezowicze to porąbani ludzie. Wszyscy uśmierzają swój ból paskudnymi rzeczami!
 
 `bb({ body:"yell_1" });`
 
-b: And they're tricking you into doing the same thing! They're corrupting you! We need to get out!
+b: I próbują cię podpuścić; liczą na to, że zrobisz to samo! Oni cię demoralizują! Musimy stąd zwiewać!
 
 `bb({ body:"final_1" });`
 
-b: GET OUT GET OUT GET OUT GET OUT GET OUT GET OUT GET OUT GET OUT GET OUT GET OU--
+b: ZWIEWAĆ ZWIEWAĆ ZWIEWAĆ ZWIEWAĆ ZWIEWAĆ ZWIEWAĆ ZWIEWAĆ ZWIEWAĆ ZWIEWAĆ ZWIEWA--
 
 `_.a2_ending = "flight";`
 
@@ -1587,7 +1587,7 @@ publish("act2",["party_hunter",14]);
 Game.WORDS_HEIGHT_BOTTOM = 230;
 ```
 
-r: You alright, kid?
+r: Wszystko ok?
 
 `publish("act2",["party_hunter",13]);`
 
@@ -1619,7 +1619,7 @@ publish("act2",["dee",6]);
 publish("act2",["dum",6]);
 ```
 
-r: Y-you...
+r: T-ty...
 
 ```
 publish("act2",["party_hunter",23]);
@@ -1629,9 +1629,9 @@ publish("act2",["dum",5]);
 music('party1', {volume:0.6, fade:6});
 ```
 
-r: are *kinky*.
+r: niezły *zboczuszek* jesteś.
 
-r: I like that. Come to my party next weekend, cutie.
+r: Podoba mi się to. Przyjdź na imprezę za tydzień, złotko.
 
 ```
 publish("act2",["party_hunter",19]);
@@ -1640,11 +1640,11 @@ publish("act2",["party_hong",36]);
 
 h2: ok, cześć, ciao, adios, au revoir
 
-r: The animal might have won today, but come back, and I'll mix something even stronger for you!
+r: Może dzisiaj twój zwierz wygrał, ale wróć, a uwarzę dla ciebie coś jeszcze mocniejszego!
 
 h2: sayōnara, auf Wiedersehen, zài jiàn, szalom
 
-r: You and me, kid, we'll show that beast who's boss!
+r: Ty i ja, młodziak, pokażemy tej bestii kto tu rządzi!
 
 (#act2k_end)
 
@@ -1652,23 +1652,23 @@ r: You and me, kid, we'll show that beast who's boss!
 
 `publish("act2",["party_hong",36]);`
 
-h2: ok sorry i have to run
+h2: ok sorry muszę spadać
 
 `publish("act2",["party_hunter",16]);`
 
-r: ^Damn^ it. The animal won today, huh?
+r: Cholera. Zwierz dzisiaj wygrał?
 
 `publish("act2",["party_hunter",15]);`
 
-h2: no no, just, uh, gotta run a marathon. gotta go fast.
+h2: nie, nie, ja, eee, idę przebiec maraton. szybko jak błyskawica.
 
 `publish("act2",["party_hunter",19]);`
 
-r: Come to my party next weekend, cutie. I'll mix something even stronger for you.
+r: Chodź na imprezę za tydzień, skarbie. Uwarzę dla ciebie coś jeszcze mocniejszego.
 
-h2: ok thanks gonna run run run run run
+h2: ok dzięx muszę biec biec biec biec biec
 
-r: You and me, kid, we'll show that beast who's boss!
+r: Ty i ja, młodziak, pokażemy tej bestii kto tu rządzi!
 
 (#act2k_end)
 
