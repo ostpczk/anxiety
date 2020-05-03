@@ -271,7 +271,7 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",3]);
 ```
 
-s: No dokładnie! Jak tak patrzę to niby żaden seksiak, ale i tak byłoby branie!
+s: No dokładnie! Wyglądem w ogóle nie zwala z nóg, ale i tak byłoby branie!
 
 ```
 publish("act2",["party_hunter",1]);
@@ -716,9 +716,9 @@ sfx("gravel");
 
 (...501)
 
-b: WIELKI, OBLEŚNY, PASKUDNY ZBOCZENIEC zostanie skazany na 72-godzinny pobyt w jednej z tych średniowiecznych maszyn do publicznego upokarzania,
+b: 2. WIELKI, OBLEŚNY, PASKUDNY ZBOCZENIEC podlega karze 72-godzinnego pobytu w jednej z tych średniowiecznych maszyn do publicznego upokarzania.
 
-b: pod warunkiem, że takie coś go nie *kręci*,
+b: 3. Przepisu ust. 2 nie stosuje się, w przypadku gdy takie coś go *kręci*,
 
 `bb({body:"scream_a_1"})`
 
@@ -1217,14 +1217,14 @@ publish("act2",["party_hunter",2]);
 Game.WORDS_HEIGHT_BOTTOM = 230;
 ```
 
-r: Wyglądasz, jakbyś bił się z własnymi myślami, młody wilku.
+r: Wyglądasz, jakby twoje myśli rozkładały cię na łopatki.
 
 ```
 publish("act2",["party_hunter",3]);
 publish("act2",["party_hong",13]);
 ```
 
-h2: Aż tak bardzo to było widać?
+h2: Aż tak bardzo to widać?
 
 ```
 publish("act2",["party_hunter",4]);
@@ -1255,7 +1255,7 @@ publish("act2",["party_hong",18]);
 sfx("squeak");
 ```
 
-r: Hej. Nie czuj się obco, przyjacielu. Lęk dopada każdego z nas.
+r: Hej. Wyluzuj, jesteś w dobrym gronie. Lęk dopada każdego z nas.
 
 ```
 publish("act2",["party_hunter",5]);
@@ -1263,11 +1263,11 @@ publish("act2",["party_hong",19]);
 ```
 
 {{if _.act1_ending=="fight"}}
-r: No kurde, dosłownie wczoraj mi mówili, że ktoś na kampusie nie wytrzymał i rozbił telefon!
+r: Kurde, dosłownie wczoraj opowiadali mi, jak komuś na kampusie puściły nerwy i rozbił telefon!
 {{/if}}
 
 {{if _.act1_ending=="flight"}}
-r: No kurde, dosłownie wczoraj mi mówili, że ktoś skulił się jak jakiś pancernik, i płakał przy ludziach!
+r: Kurde, dosłownie wczoraj opowiadali mi, że widzieli kogoś zwiniętego w kulkę jak pancernik, jak płakał przy ludziach!
 {{/if}}
 
 ```
@@ -1294,7 +1294,7 @@ publish("act2",["party_hunter",2]);
 publish("act2",["party_hong",21]);
 ```
 
-r: Nie martw się, młoda duszo. Moje życie było dawniej takie jak twoje. Aż w końcu ja i znajomi poznaliśmy sposób na wyciszenie tego dołującego głosu na zawsze...
+r: Głowa do góry. Zwierzę ci się, moje życie było dawniej takie jak twoje. Aż w końcu ja i znajomi poznaliśmy sposób na wyciszenie tego dołującego głosu na zawsze...
 
 ```
 publish("act2",["party_hunter",3]);
@@ -1331,7 +1331,7 @@ publish("act2",["party_hunter",12]);
 publish("act2",["party_hong",24]);
 ```
 
-r: Do dna, towarzyszu!
+r: Dajesz, do dna!
 
 ```
 hong({body:"hold"});
@@ -1389,7 +1389,7 @@ h: Bogaty aromat "wyłącz swój umysł," z delikatną nutą "nigdy w życiu nie
 
 b: To jest złe, człowieku. To jest naprawdę, naprawdę złe.
 
-[Oto jak *faktycznie* zaczyna się uzależnienie.](#act2h_opt1) `Game.OVERRIDE_CHOICE_LINE=true`
+[W ten sposób zaczyna się uzależnienie.](#act2h_opt1) `Game.OVERRIDE_CHOICE_LINE=true`
 
 [*Wiedziałem*, że gospodarz jest porządnie popaprany!](#act2h_opt3) `Game.OVERRIDE_CHOICE_LINE=true`
 
@@ -1398,7 +1398,7 @@ b: To jest złe, człowieku. To jest naprawdę, naprawdę złe.
 
 # act2h_opt1
 
-b: Oto jak *fak*--
+b: W ten--
 
 (#act2h)
 
@@ -1532,7 +1532,7 @@ n: *WYKOŃCZ GO*
 
 `bb({ eyes:"angry" });`
 
-b: Ten psychopata cię wykorzystywał.
+b: Ten rudzielec-psychol cię wykorzystywał.
 
 b: Próbował cię zdemoralizować, spaczyć do takiego samego stopnia!
 
@@ -1629,7 +1629,7 @@ publish("act2",["dum",5]);
 music('party1', {volume:0.6, fade:6});
 ```
 
-r: niezły *zboczuszek* jesteś.
+r: ty *perwersie*.
 
 r: Podoba mi się to. Przyjdź na imprezę za tydzień, złotko.
 
@@ -1644,7 +1644,7 @@ r: Może dzisiaj twój zwierz wygrał, ale wróć, a uwarzę dla ciebie coś jes
 
 h2: sayōnara, auf Wiedersehen, zài jiàn, szalom
 
-r: Ty i ja, młodziak, pokażemy tej bestii kto tu rządzi!
+r: Ty i ja, razem pokażemy tej bestii, kto tu rządzi!
 
 (#act2k_end)
 
@@ -1664,11 +1664,11 @@ h2: nie, nie, ja, eee, idę przebiec maraton. szybko jak błyskawica.
 
 `publish("act2",["party_hunter",19]);`
 
-r: Chodź na imprezę za tydzień, skarbie. Uwarzę dla ciebie coś jeszcze mocniejszego.
+r: Przyjdź na imprezę za tydzień, skarbie. Uwarzę dla ciebie coś jeszcze mocniejszego.
 
 h2: ok dzięx muszę biec biec biec biec biec
 
-r: Ty i ja, młodziak, pokażemy tej bestii kto tu rządzi!
+r: Ty i ja, razem pokażemy tej bestii, kto tu rządzi!
 
 (#act2k_end)
 
