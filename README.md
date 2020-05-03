@@ -1,6 +1,7 @@
 ![](https://ncase.me/anxiety/sharing/banner.png)
 
-# [Play the interactive story here!](https://ncase.me/anxiety/)
+# [Zagraj po polsku tutaj!](https://ostpczk.github.io/anxiety/) (wciąż w rozwoju)
+# [Play the interactive story in English here!](https://ncase.me/anxiety/)
 
 ## Public Domain
 
