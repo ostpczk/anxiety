@@ -109,11 +109,24 @@ B Cavello, EmilyKate McDonough, Glen Chiacchieri, Mikayla Hutchinson, Monica Sri
 
 ## How To Translate
 
+**TRANSLATIONS COMPLETE:** 
+[Русский](https://notdotteam.github.io/anxiety/),
+[Português do Brasil](https://lucasgcb.github.io/anxiety/),
+[Deutsch](https://jonasreich.github.io/anxiety/),
+[Español (Europeo)](https://jorgeygari.github.io/anxiety/),
+[Español (Latino)](https://fantasmashy.github.io/anxiety-Es-La/),
+[中文](https://z-lyen.github.io/anxiety/),
+[中文（臺灣）](https://audreyt.github.io/anxiety/),
+
 Okay. I super, super seriously apologize in advance.
 
 Translating this thing will *suck.*
 
 Thus, I highly recommend collaborating online on a translation! There's about 9,000 words to translate, the rules of what to translate or not are a bit weird, and you'll need to edit some images. But if you're still up for it...
+
+### Step 0:
+
+[Check the existing issues](https://github.com/ncase/anxiety/issues?utf8=✓&q=is%3Aissue+is%3Aopen+translation) to see if everyone else has already started your desired translation. If someone already started, go help them! :)
 
 ### Step 1:
 
@@ -184,6 +197,11 @@ French:
 
 This was a bad system I have made.
 
+P.S: To jump around different scenes, type `Game.debug()` into the Javascript console.
+If you hover over a gray box on the left, you'll see a sidebar that lets you jump to any scene.
+(Note: this make break stuff!) You can also uncomment the lines in `main.js` to test out the game
+starting from different chapters.
+
 ### Step 4:
 
 Translate `index.html`. (about 70 words) There's further instructions in that file itself. (Feel free to add yourself + your collaborators as translators in the top-left corner!)
@@ -223,7 +241,7 @@ This game also has a link to a list of Mental Health Tips & Resources, [on a dif
 
 ### Step 7: TELL ME YOU ARE *DONE* 🎉🎉🎉
 
-Ping @ncase on the Github Issue you created in Step 2 so I know! Or email me at ![](misc/email.png)
+Email me at ![](misc/email.png) so I know you're done!
 
 Do ***NOT*** send a Pull Request to *this* repo, because that will change the *original* game. I will, however, edit the original game to have a link to your translation!
 

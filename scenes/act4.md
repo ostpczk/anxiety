@@ -809,7 +809,7 @@ h: It's not like life gives you a list of 3 pre-made dialogue responses.
 
 `hong({ eyes:"normal", mouth:"smile", body:"normal" })`
 
-h: But for now, at least I can at least say thanks.
+h: But for now, I can at least say thanks.
 
 b: Well, thank you too, for listening to me patiently.
 
@@ -1426,11 +1426,11 @@ h: Like how struggling in quicksand makes you sink faster, and the solution is t
 `hong({ eyes:"surprise" });`
 
 {{if _.INJURED}}
-h: Fighting against you, my fear, lead me to jump off a roof.
+h: Fighting against you, my fear, led me to jump off a roof.
 {{/if}}
 
 {{if !_.INJURED}}
-h: Fighting against you, my fear, almost lead me to jump off a roof.
+h: Fighting against you, my fear, almost led me to jump off a roof.
 {{/if}}
 
 `hong({ body:"normal", eyes:"normal" });`
