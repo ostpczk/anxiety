@@ -1128,6 +1128,7 @@ b: O nie, "oni" cały ten czas nas okłamywali!
 `bb({body:"scream_a_1"})`
 
 b: "ONI" KARMIĄ NAS SPRZECZNYMI TREŚCIAMI, BY UZALEZNIĆ NAS OD PRZEMYSŁU COACHINGOWEGO
+
 ```
 music(null);
 hong({body:"attacked"});

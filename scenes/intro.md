@@ -95,9 +95,9 @@ _.PLAYED_BEFORE = !!window.localStorage.continueChapter;
 `clearText()`
 
 
-n3: Witaj! To jest nie tyle "gra", co interaktywna opowieść. Chyba nie masz nic przeciwko czytaniu, co nie?
+n3: Witaj! To jest nie do końca "gra", a bardziej interaktywna opowieść. Mam nadzieję, że nie zasypiasz łatwo przy czytaniu!
 
-n3: Zanim zaczniemy, jak *ty* chcesz czytać?
+n3: Zanim zaczniemy, powiedz: w jakim tempie chcesz czytać?
 
 `publish("show_options_bottom")`
 
