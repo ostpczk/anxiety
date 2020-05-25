@@ -570,6 +570,7 @@ b: Więc jeśli pójdziemy to ich zasmucimy, ale nie idąc również ich zasmuci
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
 b: PRZEZ NAS LUDZIE SĄ TYLKO SMUTNI, WIĘC POWINNIŚMY SIĘ TYLKO SMUCIĆ
+
 ```
 hong({mouth:"shock", eyes:"shock"});
 attack("18p", "bad");
@@ -859,7 +860,7 @@ bb({body:"scream"});
 Game.OVERRIDE_TEXT_SPEED = 2.5;
 ```
 
-b: NIE IDŹ INE IDŹ NIE IDŹ NIE IDŹ NIE IDŹ NIE I-
+b: NIE IDŹ NIE IDŹ NIE IDŹ NIE IDŹ NIE IDŹ NIE I-
 
 
 ```

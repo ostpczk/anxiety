@@ -603,7 +603,7 @@ DIALOGUEZ
 	position: relative;
 	color: #FFFFFF;
 	text-align: center;
-	padding: 0 10px;
+	padding: 0 0px; /* 0 10px; */
 	font-size: 1.3em;
 	margin: 25px 15px;
 	font-weight: bold;

@@ -16,7 +16,7 @@ Game.FORCE_CANT_SKIP = true;
 publish("show_stats");
 ```
 
-n2: STRACHY W TEJ RUNDZIE:
+n2: LĘKI W TEJ RUNDZIE:
 
 i: #harm# *KRZYWDA:* {{_.INTERMISSION_STAGE==1 ? _.attack_harm_ch1 : _.attack_harm_ch2}}
 
