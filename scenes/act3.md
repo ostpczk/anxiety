@@ -6,7 +6,7 @@ Game.WORDS_HEIGHT_BOTTOM = 205;
 sfx("cheers");
 ```
 
-r: Cheers!
+r: Zdrówko!
 
 ```
 publish("act3",["roofhunter",1]);
@@ -17,47 +17,47 @@ sfx("drinking");
 (...4001)
 
 ```
-publish("act3-alpha", ["dizzyhunter",1]);
+publish("act3-alpha", ["dizzyhunter",1]);i
 publish("act3-alpha", ["dizzyhong",1]);
 publish("act3",["roofhunter",3]);
 publish("act3",["roofhong",3]);
 ```
 
-h2: *Ah* that hits the spot.
+h2: *Ah*, kopie tak, jak trzeba.
 
 ```
 publish("act3",["roofhunter",2]);
 publish("act3",["roofhong",2]);
 ```
 
-r: You know, kid...
+r: Wiesz...
 
 ```
 publish("act3",["roofhunter",3]);
 publish("act3",["roofhong",6]);
 ```
 
-h2: Specifically, the spots hit are my left and right amygdala.
+h2: A dokładniej, kopie moje lewe oraz prawe ciało migdałowate.
 
 ```
 publish("act3",["roofhunter",8]);
 publish("act3",["roofhong",5]);
 ```
 
-r: You remind me of myself when I was younger. Back when I was tormented by the animal in my head.
+r: Przypominasz mi mnie z czasów mojej młodości. Kiedy jeszcze dręczył mnie zwierz w mojej głowie.
 
 ```
 publish("act3",["roofhunter",9]);
 publish("act3",["roofhong",2]);
 ```
 
-r: I'm so grateful I can pay it forward, and help you kill the beast the way I killed mine.
+r: Tak się cieszę, że mogę ci przekazać to, co wtedy było mi potrzebne, i pomóc ci zabić tę bestię tak, jak ja swoją.
 
 ```
 publish("act3",["roofhunter",2]);
 ```
 
-r: Hey, quick question: truth or da--
+r: Hej, szybkie pytanko: prawda czy wyz--
 
 ```
 publish("act3",["roofhunter",3]);
@@ -65,7 +65,7 @@ publish("act3",["roofhong",7]);
 publish("act3-alpha", ["dizzyhong",0]);
 ```
 
-h2: DARE!
+h2: WYZWANIE!
 
 ```
 publish("act3-alpha", ["dizzyhong",1]);
@@ -73,14 +73,14 @@ publish("act3",["roofhunter",10]);
 publish("act3",["roofhong",2]);
 ```
 
-r: Haha! Good.
+r: Haha! Dobra.
 
 ```
 publish("act3",["roofhunter",21]);
 publish("act3",["roofhong",4]);
 ```
 
-r: Ok. You see that baby-blue swimming pool down there?
+r: Widzisz ten błękitny basen tam na dole?
 
 ```
 publish("act3-alpha", ["dizzyhong",0]);
@@ -88,14 +88,14 @@ publish("act3",["roofhunter",11]);
 publish("act3",["roofhong",9]);
 ```
 
-h2: Yeah? Six floors down?
+h2: Taa? Sześć pięter niżej?
 
 ```
 publish("act3",["roofhunter",10]);
 publish("act3",["roofhong",8]);
 ```
 
-r: Jump in.
+r: Wskocz do niego.
 
 ```
 publish("act3",["roofhunter",11]);
@@ -108,39 +108,39 @@ h2: ...
 publish("act3",["roofhong",11]);
 ```
 
-h2: Wait, what?
+h2: Chwila, co?
 
 ```
 publish("act3",["roofhong",10]);
 publish("act3",["roofhunter",2]);
 ```
 
-r: The animal's started whining, hasn't it?
+r: Zwierz zaczął wyć, co?
 
 ```
 publish("act3",["roofhunter",23]);
 ```
 
-r: *Oh nooooo it's dangerous, don't do iiiiit.*
+r: *O nieeee, to niebezpieczne, nie rób tegooo.*
 
 ```
 publish("act3",["roofhunter",22]);
 ```
 
-r: But that's exactly why we need death-defying thrills! Party hard! Carpe diem! Snort coke off a hooker's ^ass^, #YOLO!
+r: Ale właśnie dlatego potrzebujemy doznań na granicy śmierci! Życie to są chwile! Carpe diem! Wciągaj kokę z ^dupy^ ^kurewki^, #YOLO!
 
 ```
 publish("act3",["roofhunter",10]);
 ```
 
-r: Show that animal we don't give two *^dick^s* about its ^bitch^ing! Jump in.
+r: Pokaż tej bestii, że kładziemy tłustego *^chuj^a* na jego ^pierdole^nie! Wskakuj.
 
 ```
 publish("act3",["roofhunter",11]);
 publish("act3",["roofhong",13]);
 ```
 
-h2: Uh, but sometimes, um... fear has a point...
+h2: No, ale czasami, eee... strach ma jakiś powód...
 
 ```
 publish("act3",["roofhunter",5]);
@@ -156,43 +156,43 @@ publish("act3",["roofhunter",6]);
 publish("act3",["dd",1]);
 ```
 
-r: I'm sorry, did you fall for that McMindfulness propaganda that claims feeling bad is *good?*
+r: Przepraszam, czy mam do czynienia z kolejną ofiarą szarlatanów klepiących bzdury, że złe uczucia są niby *dobre?*
 
 ```
 publish("act3",["roofhunter",17]);
 ```
 
-r: The ^assholes^ who run this world give the rest of *us* anxiety and depression,
+r: ^Dupki^, którzy rządzą tym światem, zostawiają *nam* lęk i depresję,
 
 ```
 publish("act3",["roofhunter",18]);
 ```
 
-r: Then make TED Talks to tell us to "accept" being ^fucked^ over, and "embrace" that sadistic demon in our heads!
+r: A potem wygłaszają TED Talki, gdzie mówią, że musimy "zaakceptować" bycie ^ruchanym^ w ^dupę^, oraz "pogodzić się" z tym demonem-sadystą w naszych głowach!
 
 ```
 publish("act3",["roofhunter",6]);
 ```
 
-r: Kid, I know that *you* know that animal *hurts* people like us. It *tortures* people like us.
+r: Ja wiem, że *ty* dobrze wiesz, że to zwierzę *krzywdzi* takich jak my. *Torturuje* takich jak my.
 
 ```
 publish("act3",["roofhunter",19]);
 ```
 
-r: It's not our friend. It's a rabid beast, which either needs to be *tranquilized*,
+r: Nie jest naszym przyjacielem, lecz dziką bestią, którą należy albo *uśpić*,
 
 ```
 publish("act3",["roofhunter",20]);
 ```
 
-r: Or have a *bullet put in its skull*.
+r: albo *przedziurawić jej łeb*.
 
 ```
 publish("act3",["roofhunter",27]);
 ```
 
-r: Otherwise, you're going to let it win.
+r: Inaczej ona wygra.
 
 ```
 publish("act3",["roofhunter",31]);
@@ -200,7 +200,7 @@ publish("act3",["roofhong",14]);
 publish("act3",["dd",2]);
 ```
 
-h2: No. You're wrong.
+h2: A właśnie że nie.
 
 ```
 publish("act3",["roofhunter",13]);
@@ -210,7 +210,7 @@ music('battle_dark', {volume:1.0}, function(){
 });
 ```
 
-h2: I'm not going to let it win.
+h2: Nie pozwolę jej wygrać.
 
 ```
 publish("act3",["roofhunter",25]);
@@ -219,7 +219,7 @@ publish("act3-alpha", ["transition",1]);
 publish("act3",["dd",6]);
 ```
 
-r: ^Fuck^ yeah! I believe in you, babe! Kill it! <3
+r: I to mi się podoba! Wierzę w ciebie! Dajesz czadu! <3
 
 (#act3a)
 
@@ -240,13 +240,13 @@ _.act3_bb_body = 1;
 publish("hp_show");
 ```
 
-b: no no no no no no
+b: nie nie nie nie nie
 
-n: THIS CHAPTER HAS TWO POSSIBLE ENDINGS. ONE IS *VERY, VERY BAD.*
+n: TEN ROZDZIAŁ MA DWA MOŻLIWE ZAKOŃCZENIA. JEDNO Z NICH JEST *BARDZO, BARDZO ZŁE.*
 
-b: NO NO NO NO NO NO NO NO NO NO NO NO NO NO
+b: NIE NIE NIE NIE NIE NIE NIE NIE NIE NIE NIE
 
-n: CHOOSE WISELY. PROTECT YOUR HUMAN
+n: WYBIERZ MĄDRZE. OBROŃ SWOJEGO CZŁOWIEKA
 
 `bb({ eyes:"oh_crap", mouth:"normal_talk", MOUTH_LOCK:true });`
 
@@ -254,7 +254,7 @@ b: AAAAAAAAAAAAAAAAAA
 
 `bb({ mouth:"normal" });`
 
-n: GOOD LUCK
+n: POWODZENIA
 
 ```
 Game.clearText();
