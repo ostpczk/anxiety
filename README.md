@@ -3,6 +3,14 @@
 # [Zagraj po polsku tutaj!](https://ostpczk.github.io/anxiety/) (wciąż w rozwoju)
 # [Play the interactive story in English here!](https://ncase.me/anxiety/)
 
+## Notatki od tłumacza
+Ten projekt jest kontynuacją rozpoczętego wcześniej [tłumaczenia autorstwa zyor](https://github.com/zyor/anxiety). W tej wersji ostały się:
+* tekst z segmentu wprowadzającego
+* cały Rozdział 1, z poprawkami
+* niektóre obrazki (np. w Rozdziale 4)
+
+Do tłumaczenia niektórych napisów wykorzystany został font [Delius](https://fonts.google.com/specimen/Delius) autorstwa Natalii Raices, dostępny na Open Font License.
+
 ## Public Domain
 
 Nicky Case and Monplaisir hereby dedicate all their work for this game to the public domain, under [Creative Commons Zero](https://creativecommons.org/choose/zero/).

@@ -766,7 +766,7 @@ b: LAAAAAJKI. LAAAAAAAAAAJKI.
 
 `bb({body:"scream_a_1"})`
 
-b: Następnie cię CHAPNĄ i zamienią w DURNEGO DRESA i/lub KOŁTUŃSKĄ KARYNĘ!
+b: Następnie cię CHAPNĄ i zamienią w DRESA DZBANA i/lub BEZMÓZGĄ BEZWSTYDNICĘ!
 
 `_.a2_attack_3 = "bad";`
 
@@ -900,7 +900,7 @@ attack("20p", _.a2_attack_3);
 
 h: K^UUUCHWA^!
 
-h: JA P^IERDOL^Ę C^HUJ^ W D^UPĘ^ *K^UURRRWA^ MAĆ*
+h: C^HUJ^U W D^UPĘ^ P^IERDOLO^NY *K^UUURRWA^ MAĆ*
 
 `bb({body:"two_up", mouth:"smile", eyes:"happy"});`
 

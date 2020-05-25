@@ -323,7 +323,6 @@ ABOUT / END DEMO
 	
 	position: absolute;
 	top:600px;
-	/*top:20px;*/
 	left:0;
 
 	background: url(../sprites/about/the_end.png);
@@ -398,7 +397,7 @@ ABOUT / END DEMO
 #about[about=yes] #close_about{
 	display: block;
 	float: none;
-    width: 50px;
+    width: 70px;
     margin: 10px auto;
 }
 #about[about=yes] .about_padding{
