@@ -157,7 +157,7 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",1]);
 ```
 
-s: No zobacz, wczoraj ktoś zretweetował GIF kota pijącego mleko.
+s: No spójrz, wczoraj ktoś zretweetował GIF kota pijącego mleko.
 
 ```
 publish("act2",["dee",3]);
@@ -490,7 +490,7 @@ b: Ustawa o creepach, art. 74e ust. 1: Osoba fizyczna, która wpatruje się w: 1
 
 `bb({eyes:"shock", body:"two_up", mouth:"normal"})`
 
-b: "WIELKIM, OBLEŚNYM, PASKUDNYM ZBOCZEŃCEM".
+b: "WIELKIM, OBLEŚNYM, PASKUDNYM ZBOCZUCHEM".
 
 ```
 _.a2_second_danger = 'law';
@@ -553,7 +553,7 @@ b: Człowieku, musimy uciekać od tych hedonistycznych zombi zanim zamienią nas
 ```
 _.a2_second_danger = 'zombies';
 _.a2_attack_2 = "alone";
-_.a2_hoodie_callback = "zombi";
+_.a2_hoodie_callback = "zombiakach";
 ```
 
 (#act2c)
@@ -716,13 +716,13 @@ sfx("gravel");
 
 (...501)
 
-b: 2. WIELKI, OBLEŚNY, PASKUDNY ZBOCZENIEC podlega karze 72-godzinnego pobytu w jednej z tych średniowiecznych maszyn do publicznego upokarzania.
+b: 2. WIELKI, OBLEŚNY, PASKUDNY ZBOCZUCH podlega karze 72-godzinnego pobytu w jednej z tych średniowiecznych maszyn do publicznego upokarzania.
 
 b: 3. Przepisu ust. 2 nie stosuje się, w przypadku gdy takie coś go *kręci*,
 
 `bb({body:"scream_a_1"})`
 
-b: ponieważ jest WIELKIM, OBLEŚNYM, PASKUDNYM ZBOCZEŃCEM
+b: ponieważ jest WIELKIM, OBLEŚNYM, PASKUDNYM ZBOCZUCHEM
 
 `_.a2_attack_3 = "bad";`
 
@@ -758,7 +758,7 @@ b: BACH, PRZEZ CIEBIE NASZ SYSTEM OPIEKI ZDROWOTNEJ ZBANKRUTUJE I MILIONY LUDZI 
 
 `bb({body:"normal", mouth:"small", eyes:"angry"})`
 
-b: Te hedonistyczne zombi zmierzą w twoim kierunku, zawodząc:
+b: Te hedonistyczne zombi pójdą następnie w twoim kierunku, zawodząc:
 
 `bb({body:"normal", mouth:"normal", eyes:"shock"})`
 
@@ -770,7 +770,7 @@ b: Następnie cię CHAPNĄ i zamienią w DRESA DZBANA i/lub BEZMÓZGĄ BEZWSTYDN
 
 `_.a2_attack_3 = "bad";`
 
-`_.a2_hoodie_callback = "zombi";`
+`_.a2_hoodie_callback = "zombiakach";`
 
 (#act2d)
 
@@ -778,11 +778,11 @@ b: Następnie cię CHAPNĄ i zamienią w DRESA DZBANA i/lub BEZMÓZGĄ BEZWSTYDN
 
 `bb({body:"scream_a_1"})`
 
-b: NAZIŚCI MARSZUJĄ WŁAŚNIE KROKIEM DEFILADOWYM PO ULICACH
+b: NAZIŚCI MARSZUJĄ ZNÓW RÓWNYM KROKIEM DEFILADOWYM PO ULICACH
 
 `bb({body:"one_up", mouth:"smile", eyes:"happy"})`
 
-b: I mówią, *jak dobrze, że ci 'dobrzy ludzie' się obijają, skupieni na takich bzdurach jak 'relaks' czy 'dbanie o siebie'!*
+b: I mówią, *jak to dobrze, że ci 'dobrzy ludzie' się obijają, skupieni na takich bzdurach jak 'relaks' czy 'dbanie o siebie'!*
 
 `bb({body:"point", mouth:"smile", eyes:"happy_r"})`
 
@@ -1127,7 +1127,7 @@ b: O nie, "oni" cały ten czas nas okłamywali!
 
 `bb({body:"scream_a_1"})`
 
-b: "ONI" KARMIĄ NAS SPRZECZNYMI TREŚCIAMI, BY UZALEZNIĆ NAS OD PRZEMYSŁU COACHINGOWEGO
+b: "ONI" KARMIĄ NAS SPRZECZNYMI PRZEKAZAMI, BY UZALEZNIĆ NAS OD PRZEMYSŁU COACHINGOWEGO
 
 ```
 music(null);
@@ -1507,7 +1507,7 @@ setTimeout(function(){
 
 h: CO TO DO DIASKA BYŁO
 
-b: Wybacz mi. Musiałem ci pokazać konsekwencje.
+b: Wybacz. Musiałem ci pokazać konsekwencje.
 
 {{if _.SPECIAL_ATTACK=="harm"}}
 h: MÓJ WŁASNY *TRUP* STANĄŁ MI PRZED *OCZAMI*. OBLAZŁO MNIE DOZNANIE BYCIA *MARTWYM*.

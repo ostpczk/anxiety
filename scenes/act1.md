@@ -603,7 +603,7 @@ h: Ciekawe co słychać na Twitterze?
 
 `bb({eyes:"look"});`
 
-[O nie, spójrz na tę okropną historię we wiadomościach!](#act1d_news)
+[O nie, patrz, co za tragiczna wiadomość!](#act1d_news)
 
 [O nie, czy ten tweet jest tak naprawdę *o nas?*](#act1d_subtweet)
 
@@ -617,14 +617,14 @@ bb({eyes:"pained1"});
 music(null, {fade:2});
 ```
 
-b: Boże, wydawać się mogło, że cały świat płonie, co nie?
+b: Boże, wydawać by się mogło, że cały świat płonie, co nie?
 
 ```
 bb({eyes:"pained2"});
 hong({mouth:"sad", eyes:"sad"});
 ```
 
-b: Jakby wszytko dobiegało końca, wszystko ginęło, jesteśmy straceni i nic nie możemy na to poradzić.
+b: Że wszystko dobiega końca, że wszystko ginie, że jesteśmy straceni i nic nie możemy na to poradzić.
 
 ```
 Game.OVERRIDE_TEXT_SPEED = 0.5;
@@ -635,7 +635,7 @@ b: ...
 
 `bb({mouth:"smile", eyes:"smile"});`
 
-b: Udostępnijmy tę historię!
+b: Udostępnijmy to!
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -772,7 +772,7 @@ h: Oho, fotki z wczorajszej nocy. A więc to *tak* wyglądają te cotygodniowe i
 
 `hong({mouth:"sad", eyes:"annoyed"});`
 
-h: Aj, wygląda tłoczno. Trochę się cykam.
+h: Aj, ciut za tłoczno jak dla mnie. Trochę się cykam.
 
 h: Może jednak nie trzeba było przyjmować tego zaproszenia?
 
@@ -794,7 +794,7 @@ bb({mouth:"normal", eyes:"normal"});
 {{/if}}
 
 {{if (!_.subtweet && !_.badnews)}}
-[[Wiesz, że masz naprawdę złą posturę?](#act1e_ignore_posture)
+[Wiesz, jaką masz złą posturę?](#act1e_ignore_posture)
 {{/if}}
 
 # act1e_yes_dontchange
@@ -903,7 +903,7 @@ h: Może trzeba było jednak przyjąć zaproszenie?
 {{/if}}
 
 {{if (!_.subtweet && !_.badnews)}}
-[Wiesz, że masz naprawdę złą posturę?](#act1e_ignore_posture)
+[Wiesz, jaką masz złą posturę?](#act1e_ignore_posture)
 {{/if}}
 
 # act1e_no_dontchange
@@ -1036,7 +1036,7 @@ bb({eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Chcesz mieć precel z kręgosłupa?! Przestań garbić się przed tym ekranem!
+b: Chcesz mieć precel zamiast kręgosłupa?! Przestań się garbić przed tym ekranem!
 
 ```
 bb({body:"meta"});
@@ -1155,7 +1155,7 @@ bb({eyes:"narrow_eyebrow"});
 hong({eyes:"sad", mouth:"anger"})
 ```
 
-h: Błagam tylko mi tego nie popsu--
+h: Błagam, tylko mi tego nie popsu--
 
 ```
 bb({body:"panic"});
@@ -1231,7 +1231,7 @@ bb({mouth:"normal"});
 Game.FORCE_TEXT_DURATION = 2400;
 ```
 
-b: ♫ ^Kurwiszczem^ być naprawdę chcę-
+b: ♫ K^urwiszcze^m być naprawdę chcę-
 
 (...500)
 
@@ -1249,7 +1249,7 @@ bb({eyes:"pretty"});
 Game.FORCE_TEXT_DURATION = 2300;
 ```
 
-b: ♫ Cyc, ^dupę^, uda pieść-
+b: ♫ Cyc, d^up^ę, uda pieść-
 
 (...500)
 
@@ -1258,7 +1258,7 @@ bb({eyes:"fear", mouth:"normal"});
 Game.FORCE_TEXT_DURATION = 2000;
 ```
 
-b: ♫ ^Fiut^, ^jajca^ i łydki!-
+b: ♫ F^iu^t, jajca i łydki!-
 
 (...1000)
 
@@ -1277,7 +1277,7 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Chodzi mi o to, że jesteśmy manipulacyjni i zdemoralizowani.
+b: Chodzi mi o to, że jesteśmy manipulacyjnymi degrengoluchami.
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -1295,7 +1295,7 @@ attack("18p", "bad");
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
 {{if _.whitebread}}
-b: Wepchnie cię do studni i utuczy pszenicą, aby następnie cię obedrzeć ze skóry i nosić ją jak garnitur!
+b: Wepchnie cię do studni i utuczy pszenicą, by cię następnie obedrzeć ze skóry i nosić ją jak garnitur!
 {{/if}}
 
 {{if _.parasite}}
@@ -1345,16 +1345,16 @@ h:
 {{if _.fifteencigs}}"samotność nas uśmierci"... {{/if}}
 {{if _.parasite}}"jesteśmy pasożytem społecznym"... {{/if}}
 {{if _.whitebread}}"nie jedz tego, to nas zabije"... {{/if}}
-{{if _.subtweet}}"obgadują nas za naszymi plecami"... {{/if}}
+{{if _.subtweet}}"obgadują nas za plecami"... {{/if}}
 {{if _.badnews}}"świat płonie"... {{/if}}
 {{if _.hookuphole}}"umrzemy samotnie"... {{/if}}
-{{if _.serialkiller}}"ta osoba jest seryjnym zabójcą"... {{/if}}
+{{if _.serialkiller}}"ta osoba to seryjny zabójca"... {{/if}}
 {{if _.catmilk}}"koty nie potrafią trawić mleka"... {{/if}}
-{{if _.pokemon}} ^debilna^ parodia piosenki... {{/if}}
+{{if _.pokemon}} idiotyczna parodia piosenki... {{/if}}
 
-h: ja tylko chcę żyć.
+h: ja chcę po prostu żyć.
 
-h: ja tylko chcę wolności od tego... cierpienia.
+h: ja po prostu pragnę wolności od tego... cierpienia.
 
 `bb({eyes:"look_sad"});`
 
@@ -1385,11 +1385,11 @@ h: Ostatnia aplikacja. Instagram. Co my tu mamy?
 
 `hong({eyes:"sad"});`
 
-h: ... więcej zdjęć z imprez.
+h: ... więcej zdjęć z melanżu.
 
 `hong({mouth:"sad"});`
 
-h: Wszyscy tu wyglądają na szczęśliwych. Wolni od zmartwień. Wolni od lęku.
+h: Wszyscy zdają się być tacy szczęśliwi. Wolni od zmartwień. Wolni od lęku.
 
 `hong({mouth:"anger"});`
 
@@ -1397,17 +1397,19 @@ h: Boże, czemu ja nie mogę być jak oni? Czemu nie mogę być po prostu *norma
 
 `bb({eyes:"normal_right"});`
 
-b: Skoro mówimy o imprezach, w sprawie zaproszenia na ten weekend, oto moja OSTATECZNA decyzja:
+b: Skoro mowa o imprezach, w sprawie zaproszenia na ten weekend, oto moja OSTATECZNA decyzja:
 
 `bb({eyes:"normal"});`
 
-[Powinniśmy iść.](#act1g_go) `Game.OVERRIDE_CHOICE_LINE=true`
+[Idziemy.](#act1g_go) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[Powinniśmy nie iść.](#act1g_dont) `Game.OVERRIDE_CHOICE_LINE=true`
+[Nie idziemy.](#act1g_dont) `Game.OVERRIDE_CHOICE_LINE=true`
 
 # act1g_go
 
 `_.act1g = "go"`
+
+b: Idzie--
 
 (#act1h)
 
@@ -1415,18 +1417,18 @@ b: Skoro mówimy o imprezach, w sprawie zaproszenia na ten weekend, oto moja OST
 
 `_.act1g = "dont"`
 
+b: Nie i--
+
 (#act1h)
 
 # act1h
-
-b: Powin--
 
 ```
 bb({eyes:"wat", mouth:"small"});
 hong({body:"2_fuck"});
 ```
 
-h: *^PIERDOL^.*
+h: *P^IERDO^L.*
 
 `hong({body:"2_you"});`
 
@@ -1466,7 +1468,7 @@ sfx("rustle2");
 hong({body:"0_sammich", eyes:"0_annoyed", mouth:"0_neutral"});
 ```
 
-h: A teraz daj mi dokończyć tę pyszną kanapkę w ^pierdolonej^ ciszy i spokoju.
+h: A teraz daj mi dokończyć tę pyszną kanapkę w p^ierdolon^ej ciszy i spokoju.
 
 `hong({body:"2_sammich_eat"});`
 
@@ -1581,7 +1583,9 @@ n: SPÓJRZ TYLKO JAK BARDZO JEST CI WDZIĘCZNY!
 
 (...500)
 
-n: JAKO ŻE PASEK MOCY OSIĄGNĄŁ ZERO, SPRAWUJESZ BEZPOŚREDNIĄ KONTROLĘ NAD DZIAŁANIAMI CZŁOWIEKA
+n: JEGO PASEK MOCY SPADŁ DO ZERA
+
+n: SPRAWUJESZ BEZPOŚREDNIĄ KONTROLĘ NAD DZIAŁANIAMI CZŁOWIEKA
 
 `bb({mouth:"smile", eyes:"normal"});`
 
@@ -1603,7 +1607,7 @@ b: Twoja komórka przyprawiła cię o atak paniki!
 
 `bb({eyes:"anger"})`
 
-b: Zuckerberg i spółka dewastuje twoje zdrowie psychiczne, by zbić kokosy na inwestycjach venture capital!
+b: Zuckerberg i spółka dewastują twoje zdrowie psychiczne, by zbić kokosy na inwestycjach venture capital!
 
 ```
 bb({body:"fear", eyes:"fear"});
@@ -1636,7 +1640,7 @@ hong({body:"3_defeated2"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Bądź jak pancernik! Stul się w kulkę w celu samoobrony!
+b: Broń się! Stul się w kulkę jak pancernik!
 
 ```
 Game.OVERRIDE_TEXT_SPEED = 2.5;
