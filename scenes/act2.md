@@ -1033,7 +1033,7 @@ h: ^CHUJDUPAKURWA^.
 
 h: Wiesz co? Jesteś *irracjonalny*.
 
-h: Wszyscy wiedza, że emocje są irracjonalne! W szczególności strach!
+h: Wszyscy wiedzą, że emocje są irracjonalne! W szczególności strach!
 
 `hong({body:"facepalm_2"})`
 
@@ -1264,7 +1264,7 @@ publish("act2",["party_hong",19]);
 ```
 
 {{if _.act1_ending=="fight"}}
-r: Kurde, dosłownie wczoraj opowiadali mi, jak komuś na kampusie puściły nerwy i rozbił telefon!
+r: Kurde, dosłownie wczoraj opowiadali mi, jak ktoś dostał ataku złości i rozbił telefon!
 {{/if}}
 
 {{if _.act1_ending=="flight"}}
