@@ -215,35 +215,35 @@ hong({body:"hold", eyes:"normal", mouth:"normal"});
 bb({eyes:"normal"});
 ```
 
-h: So what the ^hell^ was the moral of this story?
+h: A więc *jaki* morał płynie z tej historii?
 
 `hong({body:"one_up", eyes:"annoyed"})`
 
-h: What did we even *learn*? I *was* being stupid, my "friends" *were* using me, and we almost frickin' *died*.
+h: Czego się w ogóle nauczyliśmy? Moje zachowanie było *głupie*, moi "koledzy" mnie *wykorzystywali*, i mało co nie *zginęliśmy*.
 
 `hong({body:"normal", eyes:"normal"})`
 
 {{if _.INJURED}}
-[Yeah, not to mention the hospital bill.](#act4a_bill)
+[Nie mówiąc już o rachunku za szpital.](#act4a_bill)
 {{/if}}
 
 {{if !_.INJURED}}
-[Yeah, not to mention the liver damage.](#act4a_liver)
+[Nie mówiąc już o tym, co przeszła twoja wątroba.](#act4a_liver)
 {{/if}}
 
-[Yeah, that *was* the worst-case scenario.](#act4a_worst)
+[Mhm, to *był* najgorszy scenariusz.](#act4a_worst)
 
-[Yeah, I was right.](#act4a_right)
+[Mhm, miałem rację.](#act4a_right)
 
 # act4a_bill
 
 `hong({eyes:"annoyed_l", mouth:"narrow"});`
 
-h: Right. I don't think my insurance plan covers "being a dumb^ass^".
+h: No. Moje ubezpieczenie chyba nie pokrywa "bycia idiotą".
 
 `hong({eyes:"annoyed", mouth:"normal"});`
 
-b: And yet... we survived!
+b: A jednak... przeżyliśmy!
 
 `hong({eyes:"normal"});`
 
